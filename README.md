@@ -76,26 +76,7 @@ $ lein run -g commit-history,Wanderson
 |    credito-digital-robot |           17 |
 |        api-rentabilidade |           14 |
 |              tomatico-cd |           13 |
-|                  docs-ms |            9 |
-|                analytics |            8 |
-|               libpartner |            7 |
-|                 tomatico |            7 |
-|           tomatico-front |            5 |
-|       credito-digital-os |            5 |
-|                  pioneer |            4 |
-|                api-login |            4 |
-|                   Saturn |            3 |
-| credito-digital-servicos |            3 |
-|                 sputnik1 |            2 |
-|               manifestos |            2 |
-|   kong-validation-plugin |            2 |
-|      hub-credito-digital |            2 |
-|                 devopsV1 |            1 |
-|          product-manager |            1 |
-|             bookbuilding |            1 |
-|                capcustod |            1 |
-| assinatura-digital-front |            1 |
-|                  moip-cd |            1 |
+...
 ```
 
 
