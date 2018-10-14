@@ -46,6 +46,59 @@ $ lein run -g groups
 | 1925665 |              captalysNew |        https://gitlab.com/groups/captalysNew |
 ```
 
+Estimate of the number of commits. It's not the real number because it
+counts only the **default** branch for each repository. Life is
+complicated and some times, dev is the new master. o/
+
+``` shell
+wandersonferreira at Wandersons-Air in ~/personal/gitclj
+$ lein run -g commit-history,Wanderson
+# groups: 6
+# repositories: 136
+
+|                    :name | :num-commits |
+|--------------------------+--------------|
+|              api-pricing |          159 |
+|                  weddell |          138 |
+|                    coral |          125 |
+|                   Hubble |           77 |
+|                    Flock |           61 |
+|              PyAnalitics |           45 |
+|              monitor-ops |           40 |
+|              weddell-ETL |           35 |
+|                 captaliq |           30 |
+|           creditoDigital |           24 |
+|              conector-db |           24 |
+|       assinatura-digital |           20 |
+|              api-billing |           20 |
+|                    robot |           19 |
+|          api-operacional |           17 |
+|    credito-digital-robot |           17 |
+|        api-rentabilidade |           14 |
+|              tomatico-cd |           13 |
+|                  docs-ms |            9 |
+|                analytics |            8 |
+|               libpartner |            7 |
+|                 tomatico |            7 |
+|           tomatico-front |            5 |
+|       credito-digital-os |            5 |
+|                  pioneer |            4 |
+|                api-login |            4 |
+|                   Saturn |            3 |
+| credito-digital-servicos |            3 |
+|                 sputnik1 |            2 |
+|               manifestos |            2 |
+|   kong-validation-plugin |            2 |
+|      hub-credito-digital |            2 |
+|                 devopsV1 |            1 |
+|          product-manager |            1 |
+|             bookbuilding |            1 |
+|                capcustod |            1 |
+| assinatura-digital-front |            1 |
+|                  moip-cd |            1 |
+```
+
+
 ## License
 
 Copyright © 2018 Wanderson Ferreira

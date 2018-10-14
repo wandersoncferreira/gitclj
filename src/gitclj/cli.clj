@@ -13,5 +13,5 @@
     :parse-fn #(git-interface/help %)]])
 
 (defn- main [& args]
-  (parse-opts args cli-options))
+  (parse-opts args cli-options :in-order true))
 
